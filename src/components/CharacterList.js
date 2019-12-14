@@ -28,12 +28,6 @@ export default function CharacterList(props) {
 
   return (
     <section className="character-list">
-      {/* {characters.map(character => (
-        // <MovieDetails key={movie.id} movie={movie} />
-        <Link to={`/movies/${movie.id}`}>
-          <MovieCard movie={movie}/>
-        </Link>
-      ))} */}
       {characters.map(character => (
         <CharacterCard character={character} />
       ))}
