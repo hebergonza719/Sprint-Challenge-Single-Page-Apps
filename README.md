@@ -28,6 +28,10 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 - [ ]  Explain benefit(s) using `client-side routing`?
 
 > Answer:
+One of the benefits of using client-size routing is that it routes from one url to another a lot faster since all the components have already been loaded.
+
+Another benefit is that the page doesn't have to refresh, this provides users with
+a better user experience because it feels smoother and transitions are faster.
 
 ## Project Set Up
 
